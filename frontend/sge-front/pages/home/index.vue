@@ -21,8 +21,8 @@ const logout = () => {
 
 <template>
     <div>
-        <h1>Minha Tela Home!!!</h1>    
-        <button @click="logout" class="customButton" >SAIR</button>
+        <h1>Minha Tela Home Mod!!!</h1>    
+        <button @click="logout" class="customButton" >SAIR 😜</button>
     </div>
 </template>
 
