@@ -119,6 +119,7 @@
         }
 
         .login_panel{
+            z-index: 10;
             width: 100vw;
             height: 100vh;  
             background-color: var(--light-background-color);

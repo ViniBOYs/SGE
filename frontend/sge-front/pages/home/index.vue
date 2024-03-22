@@ -20,9 +20,9 @@ const logout = () => {
 </script>
 
 <template>
-    <div>
-        <h1>Minha Tela Home Modee!!!</h1>    
-        <button @click="logout" class="customButton" >SAIR te 😜</button>
+    <div class="teste">
+        <h1>Minha Tela Home!!!</h1>
+        <button @click="logout" class="customButtonOut" >SAIR</button>
     </div>
 </template>
 

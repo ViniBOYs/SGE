@@ -1,0 +1,63 @@
+/---/---/---/---/---/---/---/---/---/---/---/---/---/---/---/---/---/---/
+
+Pastas Criadas Manualmente
+
+- Pasta de Componentes -
+"components"
+
+- Pasta de Layouts -
+"layouts"
+
+- Pasta de Paginas -
+"pages"
+
+- Pasta de estilos para Css/Scss -
+"assets"
+
+/---/---/---/---/---/---/---/---/---/---/---/---/---/---/---/---/---/---/
+
+Começando o Css
+
+Lembrar de desativar os pacotes de estilo padrão do Navegador
+
+Criar arquivo padrão dentro da pasta assets com extensão scss (nomeRandon.scss) 
+
+O Arquivo deve conter:
+
+*,
+html,
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+E depois ir no arquivo nuxt.config.ts (na raiz do front) e adicionar o diretório do arquivo criado anteriormente
+css: [
+    '~/assets/global-project.scss'
+  ]
+
+/---/---/---/---/---/---/---/---/---/---/---/---/---/---/---/---/---/---/
+
+Trocar de Js para Typescript
+
+<script setup>
+    <div>
+        Exemplo
+    </div>
+</script>
+
+Basta adicionar lang="ts" na frente de setup
+
+<script setup lang="ts">
+    <div>
+        Exemplo
+    </div>
+</script>
+
+/---/---/---/---/---/---/---/---/---/---/---/---/---/---/---/---/---/---/
+
+
+
+
+

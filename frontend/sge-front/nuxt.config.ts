@@ -18,6 +18,7 @@ export default defineNuxtConfig({
     'primevue/resources/themes/aura-light-green/theme.css', // css tema dos componentes primevue
     '~/assets/style/global-variables.scss',  //variáveis css global customizado para toda a aplicação
     '~/assets/style/global-project.scss',  //css global customizado para toda a aplicação
+    '~/assets/style/homepage-project.scss',
   ],
   auth: {
     baseURL: 'http://localhost:8000',//endereço do backend
