@@ -24,7 +24,11 @@ body {
     height: 50px;
     width: 100%;
     cursor: pointer;
-    &:hover{ background-color: #e05e5e;}
+    transition: all 1s;
+    &:hover{ 
+        background-color: #e05e5e;
+        font-size:medium;
+    }
     &:disabled{ background-color: #d38f8f;}
 }
 
