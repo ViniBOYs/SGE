@@ -38,7 +38,8 @@ ALLOWED_HOSTS = [
 CSRT_TRUSTED_ORIGINS=[
     'http://localhost',
     '127.0.0.1',
-    'https://' + production_server  
+    'https://' + production_server,
+    'https://sge-production-fb59.up.railway.app'
 ]
 
 
