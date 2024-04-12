@@ -62,7 +62,7 @@
         <section class="logo_panel flex_center">
             <img src="/sge.jpeg" alt="sge logo">
             <h1>Sistema de Gestão de Ensino</h1>
-            <p>&reg; Senai Roberto Mange</p>
+            <p>&reg; with ViniBOY </p>
             <div class="stars1"></div>
             <div class="stars2"></div>
             <div class="stars3"></div>
