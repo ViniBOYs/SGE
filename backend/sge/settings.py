@@ -32,15 +32,13 @@ DEBUG = True
 production_server = 'sge-production-fb59.up.railway.app'
 
 ALLOWED_HOSTS = [
-    'http://localhost',
-    '127.0.0.1',
     'sge-production-fb59.up.railway.app'
 ]
 
 CSRT_TRUSTED_ORIGINS=[
     'http://localhost',
     '127.0.0.1',
-    'https://'+production_server  
+    'https://' + production_server  
 ]
 
 
