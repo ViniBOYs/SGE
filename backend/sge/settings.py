@@ -24,7 +24,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = env('SECRET_KEY')
+# SECRET_KEY = env('SECRET_KEY')
+SECRET_KEY = 'django-insecure-rgi9-e-+s0$%iw37a4_nn75@(dqhkf096a(x_u!m*6+d@5c_l='
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -32,15 +33,16 @@ DEBUG = True
 production_server = 'sge-production-fb59.up.railway.app'
 
 ALLOWED_HOSTS = [
-    'sge-production-fb59.up.railway.app'
+    '*'
 ]
 
-CSRF_TRUSTED_ORIGINS=[
-    'http://localhost',
-    '127.0.0.1',
-    'https://' + production_server,
-    'https://sge-production-fb59.up.railway.app'
-]
+# CSRF_TRUSTED_ORIGINS=[
+#     '*',
+#     # 'http://localhost',
+#     # '127.0.0.1',
+#     # 'https://' + production_server,
+#     # 'https://sge-production-fb59.up.railway.app'
+# ]
 
 
 # Application definition
@@ -101,7 +103,8 @@ WSGI_APPLICATION = 'sge.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': env('ENGINE'),
+        # 'ENGINE': env('ENGINE'),
+        'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
